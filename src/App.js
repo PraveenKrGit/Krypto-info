@@ -8,7 +8,7 @@ import Coin from "./routes/Coin";
 
 function App() {
 
-  //we will be returning array of 
+  //we will be returning array of coins
   const[coins, setCoins] = useState([])
   
   //api url
@@ -34,15 +34,6 @@ function App() {
         <Route path=':coinId' element={<Coin />}/>
       </Route>
     </Routes>
-
-
-
-      {/* <Routes>
-        <Route path='/' element={<Coins coin={coins}/>}/>
-        <Route path='/coin' element = {<Coin/>}>
-          <Route path=':coinId' element={<Coin/>}/>
-        </Route>
-      </Routes> */}
     </>
   );
 }
