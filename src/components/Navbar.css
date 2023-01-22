@@ -1,0 +1,23 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.icon{
+    font-size: 3rem;
+    color: rgb(0, 156, 44);
+}
+
+.purple{
+    color: rgb(0, 156, 44);
+}
+
+h1{
+    font-size: 3rem;
+}
+
+span{
+    font-size: 2rem;
+}
